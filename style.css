@@ -1,0 +1,15 @@
+svg {
+    display: block;
+    height: 100vh;
+    margin: 0 auto;
+    transition:  1s;
+}
+
+svg:hover {
+    transform: scale(1.5);    
+}
+
+svg:active #check-mark {
+    stroke: #55D21A;
+}
+
