@@ -2,7 +2,19 @@ svg {
     display: block;
     height: 100vh;
     margin: 0 auto;
-    transition: all 2s;
+    transition: all 1s;
+    animation: draw 3s ease-in-out;
+}
+
+@keyframes draw {
+    from { 
+        stroke-dasharray: 300;
+        stroke-dashoffset: 300;
+    }
+
+    to {
+        stroke-dashoffset: 10;
+    }
 }
 
 svg:hover {
@@ -11,8 +23,4 @@ svg:hover {
 
 svg:active #checkmark {
     stroke: #55D21A;
-}
-
-@keyframes {
-    
 }
