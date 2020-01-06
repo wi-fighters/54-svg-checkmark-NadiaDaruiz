@@ -13,7 +13,7 @@ body {
 
 svg, 
 svg * {
-    transition: 2s;
+    transition: 2s ease-out;
 }    
 
 svg:hover {
@@ -22,7 +22,7 @@ svg:hover {
 
 svg:active #checkmark {
     stroke: #55D21A;
-    animation: draw 2s ease-in-out;
+    animation: draw 1.5s ease-in-out;
 }
 
 @keyframes draw {
